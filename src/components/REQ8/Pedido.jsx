@@ -7,7 +7,7 @@ import {
     Routes,
     Route
   } from 'react-router-dom';
-import App2 from "../REQ9/App2";
+import AppRestaurante from "../REQ9/AppRestaurante";
 
 function Pedido (){
     return(
@@ -33,9 +33,9 @@ function Pedido (){
             </div>
 
 
-            <Link to='/proyectoFinal/App2'><button className="btn btn-outline-warning"  type="primary">Ir a Login Restaurante</button></Link>
+            <Link to='/proyectoFinal/AppRestaurante'><button className="btn btn-outline-warning"  type="primary">Ir a Login Restaurante</button></Link>
                                         <Routes>
-                                         <Route path='/proyectoFinal/App2' element={<App2 />} />
+                                         <Route path='/proyectoFinal/AppRestaurante' element={<AppRestaurante />} />
                                      </Routes>
         </div>
 

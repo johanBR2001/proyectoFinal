@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 
-export const Register =(props) =>{
+export const RegisterRestaurante =(props) =>{
     const [email,setEmail] = useState("")
     const [pass,setPass] = useState("")
     const [name,setName] = useState("")
@@ -21,6 +21,8 @@ export const Register =(props) =>{
                 <label htmlFor = "password" >Contraseña</label>
                 <input value={pass} onChange={(e) => setPass(e.target.value)} type = "password" placeholder = "*************" id="password" name="password"/>
                 <button type="submit">Log In</button>
+
+                
             </form>
             <button className ="link-btn" onClick={() => props.onFormSwitch("login")}>¿Ya tienes una cuenta? Inicia Sesion</button>
         </div>

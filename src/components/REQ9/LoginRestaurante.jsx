@@ -1,7 +1,13 @@
 import React, {useState} from 'react';
+import { Link } from 'react-router-dom';
 
-
-export const Login = (props) => {
+import {
+    BrowserRouter as Router,
+    Routes,
+    Route
+  } from 'react-router-dom';
+import Dishes from '../REQ10/Dishes';
+export const LoginRestaurante = (props) => {
     const [email,setEmail] = useState("");
     const [pass,setPass] = useState("");
 
@@ -17,7 +23,10 @@ export const Login = (props) => {
                 <input value ={email} onChange={(e) => setEmail(e.target.value)} type = "email" placeholder = "tucorreo@hotmail.com" id="email" name="email"/>
                 <label htmlFor = "password" >Contraseña</label>
                 <input value={pass} onChange={(e) => setPass(e.target.value)} type = "password" placeholder = "*************" id="password" name="password"/>
-                <button type="submit" >Log In</button>
+                <Link to='/proyectoFinal/Dishes'><button type="submit" >Log In</button></Link>
+                <Routes>
+                    <Route path='/proyectoFinal/Dishes' element={<Dishes />} />
+                </Routes>
             </form>
             <button className ="link-btn"  onClick={() => props.onFormSwitch("register")}>¿Aun no tienes una cuenta? Registrate</button>
         </div>

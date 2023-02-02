@@ -13,7 +13,7 @@ const Menu = () => {
           <ul className='navbar-nav'>
           <li className='nav-item' >
               <NavLink 
-               to='/proyectoFinal/App' 
+               to='/proyectoFinal/AppCliente' 
                className={({ isActive }) =>
                isActive
                     ? 'nav-link active text-danger bg-light'

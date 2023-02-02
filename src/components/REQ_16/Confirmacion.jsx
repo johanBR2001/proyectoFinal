@@ -8,7 +8,7 @@ import {
     Route
   } from 'react-router-dom';
 
-import App from '../REQ1/App';
+import AppCliente from '../REQ1/AppCliente';
 const mostrarAlerta = () => {
     swal({
         title: "Completado!",
@@ -71,9 +71,9 @@ function Confirmacion() {
                     <div className="form-group text-center col-md-12">
                     <button className="btn btn-outline-warning" onClick={mostrarAlerta} type="primary">CONFIRMAR REGISTRO</button>
                     <div className="form-group text-center col-md-12 mt-2"  >
-                    <Link to='/proyectoFinal/App'><button className="btn btn-outline-warning" type="primary">Log Out</button></Link>
+                    <Link to='/proyectoFinal/AppCliente'><button className="btn btn-outline-warning" type="primary">Log Out</button></Link>
                     <Routes>
-                            <Route path='/proyectoFinal/App' element={<App />} />
+                            <Route path='/proyectoFinal/AppCliente' element={<AppCliente />} />
                       </Routes>         
                     </div>
                     </div>
