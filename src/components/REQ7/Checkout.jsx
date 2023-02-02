@@ -251,11 +251,11 @@ function Checkout() {
 
                 <hr style={{ color: "aliceblue" }} className="my-4" />
 
-                <Link to='/Pedido'><button className="w-100 btn btn-danger btn-lg" type="submit">
+                <Link to='/proyectoFinal/Pedido'><button className="w-100 btn btn-danger btn-lg" type="submit">
                   Realizar pago
                 </button></Link>
                       <Routes>
-                            <Route path='/Pedido' element={<Pedido />} />
+                            <Route path='/proyectoFinal/Pedido' element={<Pedido />} />
                       </Routes>
 
 

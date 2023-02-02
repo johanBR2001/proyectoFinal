@@ -71,9 +71,9 @@ function Confirmacion() {
                     <div className="form-group text-center col-md-12">
                     <button className="btn btn-outline-warning" onClick={mostrarAlerta} type="primary">CONFIRMAR REGISTRO</button>
                     <div className="form-group text-center col-md-12 mt-2"  >
-                    <Link to='/App'><button className="btn btn-outline-warning" type="primary">Log Out</button></Link>
+                    <Link to='/proyectoFinal/App'><button className="btn btn-outline-warning" type="primary">Log Out</button></Link>
                     <Routes>
-                            <Route path='/App' element={<App />} />
+                            <Route path='/proyectoFinal/App' element={<App />} />
                       </Routes>         
                     </div>
                     </div>

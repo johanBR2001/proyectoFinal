@@ -27,9 +27,9 @@ function Card({title, imgSource}){
                                     <h5 className="mt-1 mb-2"><a href="">{title}</a></h5>
                                     <p className="small">Baked salmon to a fresh salad made with chickpeas, arugula, herbs
                                         and olives</p>
-                                        <Link to='/Platos2'><a href="">Ver mas</a></Link>
+                                        <Link to='/proyectoFinal/Platos2'><a href="">Ver mas</a></Link>
                                         <Routes>
-                                         <Route path='/Platos2' element={<Platos2 />} />
+                                         <Route path='/proyectoFinal/Platos2' element={<Platos2 />} />
                                      </Routes>
                                 </div>
             </div>

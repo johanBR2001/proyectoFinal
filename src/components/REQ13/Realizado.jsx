@@ -66,9 +66,9 @@ function Realizado (){
              />
         </div>
 
-        <Link to='/Finish'><button className="btn btn-outline-warning" type="primary">Pedidos Terminado</button></Link>
+        <Link to='/proyectoFinal/Finish'><button className="btn btn-outline-warning" type="primary">Pedidos Terminado</button></Link>
         <Routes>
-                    <Route path='/Finish' element={<Finish />} />
+                    <Route path='/proyectoFinal/Finish' element={<Finish />} />
                 </Routes>
         </div>
     

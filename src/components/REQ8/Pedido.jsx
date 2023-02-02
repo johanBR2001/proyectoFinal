@@ -33,9 +33,9 @@ function Pedido (){
             </div>
 
 
-            <Link to='/App2'><button className="btn btn-outline-warning"  type="primary">Ir a Login Restaurante</button></Link>
+            <Link to='/proyectoFinal/App2'><button className="btn btn-outline-warning"  type="primary">Ir a Login Restaurante</button></Link>
                                         <Routes>
-                                         <Route path='/App2' element={<App2 />} />
+                                         <Route path='/proyectoFinal/App2' element={<App2 />} />
                                      </Routes>
         </div>
 

@@ -20,9 +20,9 @@ export const Login1 = (props) => {
                 <input value ={email} onChange={(e) => setEmail(e.target.value)} type = "email" placeholder = "tucorreo@hotmail.com" id="email" name="email"/>
                 <label htmlFor = "password" >Contraseña</label>
                 <input value={pass} onChange={(e) => setPass(e.target.value)} type = "password" placeholder = "*************" id="password" name="password"/>
-                <Link to='/Todos'><button type="submit" >Log In</button></Link>
+                <Link to='/proyectoFinal/Todos'><button type="submit" >Log In</button></Link>
                 <Routes>
-                    <Route path='/Todos' element={<Todos />} />
+                    <Route path='/proyectoFinal/Todos' element={<Todos />} />
                 </Routes>
 
                    

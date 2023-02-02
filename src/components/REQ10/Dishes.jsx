@@ -118,9 +118,9 @@ function Dishes() {
             </tbody>
           </table>
         </div>
-        <Link to='/Realizado'><button className="btn btn-outline-warning" type="primary">Mostrar Pedidos</button></Link>
+        <Link to='/proyectoFinal/Realizado'><button className="btn btn-outline-warning" type="primary">Mostrar Pedidos</button></Link>
         <Routes>
-                    <Route path='/Realizado' element={<Realizado />} />
+                    <Route path='/proyectoFinal/Realizado' element={<Realizado />} />
                 </Routes>
       </div>
     </div>

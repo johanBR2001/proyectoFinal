@@ -28,9 +28,9 @@ function Rest(props) {
                         </p>
                         
                     </div>
-                        <Link to = '/Platos'> Ver Mas</Link>
+                        <Link to = '/proyectoFinal/Platos'> Ver Mas</Link>
                     <Routes>
-                        <Route Path = '/Platos' component={Platos}/>
+                        <Route Path = '/proyectoFinal/Platos' component={Platos}/>
                     </Routes>
                 </div>
             </div>

@@ -63,9 +63,9 @@ function index() {
 
 
            <div>
-                        <Link to='/Car'><button className="btn btn-outline-warning"  type="primary">Ver Carrito</button></Link>
+                        <Link to='/proyectoFinal/Car'><button className="btn btn-outline-warning"  type="primary">Ver Carrito</button></Link>
                         <Routes>
-                                         <Route path='/Car' element={<Car />} />
+                                         <Route path='/proyectoFinal/Car' element={<Car />} />
                                      </Routes>
                                         
             </div>

@@ -28,23 +28,23 @@ const app = () => {
       <Menu />
       <div>
         <Routes>
-          <Route path='/' element={<App />} />
-          <Route path='/Platos' element={<Platos />} />
+          <Route path='/proyectoFinal/' element={<App />} />
+          <Route path='/proyectoFinal/Platos' element={<Platos />} />
           
-          <Route path='/Todos' element={<Todos />} />
-          <Route path='/Carnes' element={<Carnes />} />
-          <Route path='/Mariscos' element={<Mariscos />} />
-          <Route path='/Pastas' element={<Pastas />} />
-          <Route path='/Platos2' element={<Platos2 />} />
-          <Route path='/Car' element={<Car />} />
-          <Route path='/Checkout' element={<Checkout />} />
-          <Route path='/Pedido' element={<Pedido />} />
-          <Route path='/App2' element={<App2 />} />
-          <Route path='/Dishes' element={<Dishes />} />
-          <Route path='/Realizado' element={<Realizado />} />
-          <Route path='/Finish' element={<Finish />} />
-          <Route path='/Confirmacion' element={<Confirmacion />} />
-          <Route path='/App' element={<App />} />
+          <Route path='/proyectoFinal/Todos' element={<Todos />} />
+          <Route path='/proyectoFinal/Carnes' element={<Carnes />} />
+          <Route path='/proyectoFinal/Mariscos' element={<Mariscos />} />
+          <Route path='/proyectoFinal/Pastas' element={<Pastas />} />
+          <Route path='/proyectoFinal/Platos2' element={<Platos2 />} />
+          <Route path='/proyectoFinal/Car' element={<Car />} />
+          <Route path='/proyectoFinal/Checkout' element={<Checkout />} />
+          <Route path='/proyectoFinal/Pedido' element={<Pedido />} />
+          <Route path='/proyectoFinal/App2' element={<App2 />} />
+          <Route path='/proyectoFinal/Dishes' element={<Dishes />} />
+          <Route path='/proyectoFinal/Realizado' element={<Realizado />} />
+          <Route path='/proyectoFinal/Finish' element={<Finish />} />
+          <Route path='/proyectoFinal/Confirmacion' element={<Confirmacion />} />
+          <Route path='/proyectoFinal/App' element={<App />} />
 
           
         </Routes>

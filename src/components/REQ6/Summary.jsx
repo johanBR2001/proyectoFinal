@@ -32,11 +32,11 @@ function Summary() {
           </li>
         </ul>
 
-        <Link to='/Checkout'><button type="button" className="btn btn-primary btn-lg btn-block">
+        <Link to='/proyectoFinal/Checkout'><button type="button" className="btn btn-primary btn-lg btn-block">
           Ir a pagar
         </button></Link>
         <Routes>
-                                         <Route path='/Checkout' element={<Checkout />} />
+                                         <Route path='/proyectoFinal/Checkout' element={<Checkout />} />
                                      </Routes>
       </div>
     </div>

@@ -13,7 +13,7 @@ const Menu = () => {
           <ul className='navbar-nav'>
           <li className='nav-item' >
               <NavLink 
-               to='/App' 
+               to='/proyectoFinal/App' 
                className={({ isActive }) =>
                isActive
                     ? 'nav-link active text-danger bg-light'
@@ -23,7 +23,7 @@ const Menu = () => {
             </li>
             <li className='nav-item' >
               <NavLink 
-               to='/Todos' 
+               to='/proyectoFinal/Todos' 
                className={({ isActive }) =>
                isActive
                     ? 'nav-link active text-danger bg-light'
@@ -33,7 +33,7 @@ const Menu = () => {
             </li>
             <li className='nav-item'>
               <NavLink
-                to='/Carnes'
+                to='/proyectoFinal/Carnes'
                 className={({ isActive }) =>
                   isActive
                     ? 'nav-link active text-danger bg-light'
@@ -44,7 +44,7 @@ const Menu = () => {
               </NavLink>
             </li>
             <li className='nav-item'>
-              <NavLink  to='/Mariscos' 
+              <NavLink  to='/proyectoFinal/Mariscos' 
               className={({ isActive }) =>
               isActive
               ? 'nav-link active text-danger bg-light'
@@ -55,7 +55,7 @@ const Menu = () => {
               </NavLink>
             </li>
             <li className='nav-item'>
-              <NavLink  to='/Pastas' 
+              <NavLink  to='/proyectoFinal/Pastas' 
               className={({ isActive }) =>
               isActive
               ? 'nav-link active text-danger bg-light'
