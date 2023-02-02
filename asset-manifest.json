@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/johanBR2001.github.io/proyectoFinal/static/css/main.943e7055.css",
-    "main.js": "/johanBR2001.github.io/proyectoFinal/static/js/main.e22dd7ad.js",
+    "main.css": "/johanBR2001.github.io/proyectoFinal/static/css/main.621579c7.css",
+    "main.js": "/johanBR2001.github.io/proyectoFinal/static/js/main.0015c928.js",
     "static/media/BIFE ANGOSTO.jfif": "/johanBR2001.github.io/proyectoFinal/static/media/BIFE ANGOSTO.10490523db9916e20505.jfif",
     "static/media/cover2.jpg": "/johanBR2001.github.io/proyectoFinal/static/media/cover2.22b91f1a3cbcbe8947c7.jpg",
     "static/media/cover1.jpg": "/johanBR2001.github.io/proyectoFinal/static/media/cover1.a359693c7c6f09a35798.jpg",
@@ -38,11 +38,11 @@
     "static/media/instagram.svg": "/johanBR2001.github.io/proyectoFinal/static/media/instagram.360ddc73f9e5807dc1e3.svg",
     "index.html": "/johanBR2001.github.io/proyectoFinal/index.html",
     "static/media/facebook.svg": "/johanBR2001.github.io/proyectoFinal/static/media/facebook.161eb7a33a35fa748ae9.svg",
-    "main.943e7055.css.map": "/johanBR2001.github.io/proyectoFinal/static/css/main.943e7055.css.map",
-    "main.e22dd7ad.js.map": "/johanBR2001.github.io/proyectoFinal/static/js/main.e22dd7ad.js.map"
+    "main.621579c7.css.map": "/johanBR2001.github.io/proyectoFinal/static/css/main.621579c7.css.map",
+    "main.0015c928.js.map": "/johanBR2001.github.io/proyectoFinal/static/js/main.0015c928.js.map"
   },
   "entrypoints": [
-    "static/css/main.943e7055.css",
-    "static/js/main.e22dd7ad.js"
+    "static/css/main.621579c7.css",
+    "static/js/main.0015c928.js"
   ]
 }
